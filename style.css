@@ -275,3 +275,23 @@ header .content .details h3 span {
 header .content .details h3 i {
     margin-right: 5px;
 }
+
+header .content .btns {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .content .btns a {
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #00bdff, #0079ff);
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    text-decoration: none;
+}
+
+@keyframes button {}
